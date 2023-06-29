@@ -126,14 +126,13 @@ img {
     border-radius: 2px;
       
 }
-.header-link.active::after {
-    color: var(--dark-blue-bgd);
-}
 .header-link:hover,
 .header-link:focus {
     color: var(--dark-blue-bgd);
 } 
-
+.active {
+    color: var(--dark-blue-bgd);
+}
 .address {
     font-style: normal;
 }
