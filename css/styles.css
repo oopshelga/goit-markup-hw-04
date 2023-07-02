@@ -453,10 +453,9 @@ img {
 .footer-container {
     display: flex;
     align-items: baseline;
-    margin-right: 120px; 
+    gap: 120px; 
 }
 .logo-container {
-    margin-right: 120px
 }
 .footer-logo {
     font-family: 'Raleway', sans-serif;
@@ -476,13 +475,14 @@ img {
 }
 
 .footer-text {
+    width: 264px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--simple-white-cl);
-    max-width: 264px;
+    
 }
 
 .footer-list {
